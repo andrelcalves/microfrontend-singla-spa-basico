@@ -1,0 +1,25 @@
+{
+  "name": "microfrontend-singla-spa-basico",
+  "version": "1.0.0",
+  "description": "Um exemplo simples de microfrontend com framework single spa (react + vue), para esse exemplo serão criados dois exemplos, um contador em react e um todo list em vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelcalves/microfrontend-singla-spa-basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelcalves/microfrontend-singla-spa-basico/issues"
+  },
+  "homepage": "https://github.com/andrelcalves/microfrontend-singla-spa-basico#readme",
+  "dependencies": {
+    "single-spa": "^5.3.4",
+    "single-spa-react": "^2.14.0",
+    "single-spa-vue": "^1.8.2"
+  }
+}
