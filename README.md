@@ -1,12 +1,16 @@
 # microfrontend-singla-spa-basico
 Um exemplo simples de microfrontend com framework single spa (react + vue), para esse exemplo serão criados dois projetos, um contador em react e um todo list em vue.
 
+A abordagem utilizada para esse exemplo foi Micro Apps, onde cada aplicação possui sua propria runtime (Separate Runtime), conforme ilustrado abaixo:
+
+![Approach Separete Runtime](approach.jpg)
+
 ### os projetos foram criados na pasta project
 * counter   (em react)
 * todo-list (em vue)
 
 
-Esse exemplo foi feito com base no video de Matheus Castiglioni, disponível em .
+O exemplo hands on passo a passo, foi feito com base no video de Matheus Castiglioni, disponível em:
 
 https://www.youtube.com/watch?v=who7iqEIpwU
 
